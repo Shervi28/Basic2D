@@ -23,7 +23,7 @@ The object is composed of 4 parts; velocity, acceleration, position and the tops
 The main file is the main part of your code. Its where you bring in the functions in the object file and decide how you want to simulate your environment.
 
 ## To-Do
-* [] Air fluid resistance 
-* [] Editing variables and functions inside the main file.
-* [] Gravitational attraction.
-* [] And whataver ideas you have :)
+* [x] Air fluid resistance 
+* [ ] Editing variables and functions inside the main file.
+* [ ] Gravitational attraction.
+* [ ] And whataver ideas you have :)
