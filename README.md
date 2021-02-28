@@ -22,6 +22,9 @@ The object is composed of 4 parts; velocity, acceleration, position and the tops
 ### Main
 The main file is the main part of your code. Its where you bring in the functions in the object file and decide how you want to simulate your environment.
 
+#### How to write the main file
+
+
 ## To-Do
 * [ ] Air and fluid resistance 
 * [ ] Editing variables and functions inside the main file.
