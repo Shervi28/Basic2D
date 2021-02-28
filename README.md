@@ -23,7 +23,16 @@ The object is composed of 4 parts; velocity, acceleration, position and the tops
 The main file is the main part of your code. Its where you bring in the functions in the object file and decide how you want to simulate your environment.
 
 #### How to write the main file
-
+First you need to create an instance of the Object class. Then you need to create two functions; setup and draw (like any other processing project).
+```java
+  Object object;
+  
+  void Setup(){
+  }
+  
+  void draw(){
+  }
+```
 
 ## To-Do
 * [ ] Air and fluid resistance 
