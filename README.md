@@ -55,5 +55,7 @@ Then you can call in the functions in the Object class to simulate your object.
 * [ ] Gravitational attraction.
 * [ ] And whataver ideas you have :)
 
+> To help support Basic2D, feel free to point out bugs and issues in the engine!!! 
+
 ## Credits
 HUGE thanks to @shiffman for inspiring me to make this physics engine!!!
