@@ -1,4 +1,4 @@
-### Basic2D
+# Basic2D
 This is a very basic 2D physics engine. Right now, its capable of doing basic physics simulations, hence thats why its called basic2D.
 
 ## Capabilities 
@@ -6,7 +6,7 @@ This is a very basic 2D physics engine. Right now, its capable of doing basic ph
 * Basic physics simulations 
   * Force, acceleration, velocity and etc.
   
-# Coming soon...
+### Coming soon...
 * Gravity, friction, air and fluid resistance
 * Attraction
 
