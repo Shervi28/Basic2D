@@ -28,9 +28,24 @@ First you need to create an instance of the Object class. Then you need to creat
   Object object;
   
   void Setup(){
+  object = new Object();
   }
   
   void draw(){
+  }
+```
+Then you can call in the functions in the Object class to simulate your object.
+```java
+  Object object;
+  
+  void Setup(){
+  object = new Object();
+  }
+  
+  void draw(){
+  object.update();
+  object.checkEdges();
+  object.display();
   }
 ```
 
