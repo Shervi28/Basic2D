@@ -54,3 +54,6 @@ Then you can call in the functions in the Object class to simulate your object.
 * [ ] Editing variables and functions inside the main file.
 * [ ] Gravitational attraction.
 * [ ] And whataver ideas you have :)
+
+## Credits
+HUGE thanks to @shiffman for inspiring me to make this physics engine!!!
