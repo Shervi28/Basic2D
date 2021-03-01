@@ -4,6 +4,8 @@ class Object {
   PVector velocity;
   PVector acceleration;
   float topspeed;
+  float mass;
+  float Mass;
   float VelX;
   float VelY;
   float AccX;
@@ -15,6 +17,8 @@ class Object {
     velocity = new PVector(VelX, VelY);
     acceleration = new PVector(AccX,AccY);
     topspeed = X;
+    mass = Mass;
+    
   }
   
   void accessVelocity(float x, float y){
@@ -30,6 +34,15 @@ class Object {
   void accessTopspeed(int x){
     x = X;
   }
+  
+  void accessMass(float m){
+    m = Mass;
+  }
+  
+  void applyForce(PVector force){
+    PVector f = PVector.div(force,mass);
+    acceleration.add(f);
+  }  
   
   void update(){
     velocity.add(acceleration);
@@ -60,4 +73,22 @@ class Object {
       position.y = height;
     }
   }
+  
+  void checkEdges1() {
+
+    if (position.x > width) {
+      position.x = width;
+      velocity.x *= -1;
+    } else if (position.x < 0) {
+      velocity.x *= -1;
+      position.x = 0;
+    }
+
+    if (position.y > height) {
+      velocity.y *= -1;
+      position.y = height;
+    }
+
+  }  
+  
 }
