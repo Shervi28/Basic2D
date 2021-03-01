@@ -1,6 +1,7 @@
 # Basic2D
-![Basic2D Logo]
-(https://github.com/Shervi28/Basic2D/blob/main/Main/Basic2D.PNG)
+
+![Basic2D Logo](https://github.com/Shervi28/Basic2D/blob/main/Main/Basic2D.PNG)
+
 This is a very basic 2D physics engine and simulator. Right now, its capable of doing basic physics simulations, hence thats why its called Basic2D.
 
 ## Capabilities 
