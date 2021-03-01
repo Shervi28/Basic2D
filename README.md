@@ -13,7 +13,7 @@ This is a very basic 2D physics engine and simulator. Right now, its capable of 
 * Attraction
 
 ## Setup
-Look at [Setup Guide](https://github.com/Shervi28/Basic2D/blob/main/Docs/Setup-Guide.md)
+Look at the [Setup Guide](https://github.com/Shervi28/Basic2D/blob/main/Docs/Setup-Guide.md) to see how to install Basic2D.
 
 > NOTE: Basic2D is currently only available for processing(java).
 
