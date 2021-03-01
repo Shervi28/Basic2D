@@ -4,23 +4,44 @@ class Object {
   PVector velocity;
   PVector acceleration;
   float topspeed;
+  float VelX;
+  float VelY;
+  float AccX;
+  float AccY;
+  int X;
 
   Object() {
     position = new PVector(width/2, height/2);
-    velocity = new PVector(0, 0);
-    acceleration = new PVector(0.01,-0.001);
-    topspeed = 10;
+    velocity = new PVector(VelX, VelY);
+    acceleration = new PVector(AccX,AccY);
+    topspeed = X;
   }
-
-  void update() {
-    // You can choose how to update your object.
-    // velocity.add(acceleration);
-    // velocity.limit(topspeed);
-    // position.add(velocity);
+  
+  void accessVelocity(float x, float y){
+    x = VelX;
+    y = VelY;
+  }
+  
+  void accessAccelleration(float x, float y){
+    x = AccX;
+    y = AccY;
+  }
+  
+  void accessTopspeed(int x){
+    x = X;
+  }
+  
+  void update(){
+    velocity.add(acceleration);
+    velocity.limit(topspeed);
+    position.add(velocity);
   }
 
   void display() {
-    // You can choose how to display your object
+    stroke(0);
+    strokeWeight(2);
+    fill(127);
+    ellipse(position.x, position.y, 48, 48);
   }
 
   void checkEdges() {
