@@ -12,6 +12,9 @@ This is a very basic 2D physics engine and simulator. Right now, its capable of 
 * Gravity, friction, air and fluid resistance
 * Attraction
 
+## Setup
+Look at [Setup Guide](https://github.com/Shervi28/Basic2D/blob/main/Docs/Setup-Guide.md)
+
 > NOTE: Basic2D is currently only available for processing(java).
 
 I have wrote examples for Basic2D to show how to work with it.
